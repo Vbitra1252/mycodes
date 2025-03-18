@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background: #ff6600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.signup-btn:hover {
+    background: #e65c00;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero-buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.buy-btn {
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-btn {
+    background: transparent;
+    border: 2px solid black;
+}
+
+/* Services */
+.services {
+    text-align: center;
+    padding: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

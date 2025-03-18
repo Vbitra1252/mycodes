@@ -1,10 +1,19 @@
-//home page component
-import React from 'react';
+import HeroSection from "../components/Hero";
+import Services from "../components/Services";
 
 const Home = () => {
     return (
         <div>
-            <h1>Home Page</h1>
+            <HeroSection
+                title="MUSHROOM"
+                description="Mushrooms are edible fungi that can provide several important nutrients."
+                imgSrc="/mushroom.png"
+                btn1Text="Buy Now"
+                btn2Text="Contact Us"
+            />
+            <Services />
         </div>
     );
-}
+};
+
+export default Home;
